@@ -1,0 +1,11 @@
+D:\LineFollowerCode\LineFollowerClient\LineFollowerClient\bin\Debug\net8.0\LineFollowerClient.deps.json
+D:\LineFollowerCode\LineFollowerClient\LineFollowerClient\bin\Debug\net8.0\LineFollowerClient.dll
+D:\LineFollowerCode\LineFollowerClient\LineFollowerClient\bin\Debug\net8.0\LineFollowerClient.pdb
+D:\LineFollowerCode\LineFollowerClient\LineFollowerClient\obj\Debug\net8.0\LineFollowerClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\LineFollowerCode\LineFollowerClient\LineFollowerClient\obj\Debug\net8.0\LineFollowerClient.AssemblyInfoInputs.cache
+D:\LineFollowerCode\LineFollowerClient\LineFollowerClient\obj\Debug\net8.0\LineFollowerClient.AssemblyInfo.cs
+D:\LineFollowerCode\LineFollowerClient\LineFollowerClient\obj\Debug\net8.0\LineFollowerClient.csproj.CoreCompileInputs.cache
+D:\LineFollowerCode\LineFollowerClient\LineFollowerClient\obj\Debug\net8.0\LineFollowerClient.dll
+D:\LineFollowerCode\LineFollowerClient\LineFollowerClient\obj\Debug\net8.0\refint\LineFollowerClient.dll
+D:\LineFollowerCode\LineFollowerClient\LineFollowerClient\obj\Debug\net8.0\LineFollowerClient.pdb
+D:\LineFollowerCode\LineFollowerClient\LineFollowerClient\obj\Debug\net8.0\ref\LineFollowerClient.dll

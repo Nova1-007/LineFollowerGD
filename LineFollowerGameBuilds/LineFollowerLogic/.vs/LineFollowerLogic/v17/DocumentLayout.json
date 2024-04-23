@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LineFollowerGameBuilds\\LineFollowerLogic\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DAEE50BC-13CC-42CD-97F9-FC4450ED86FA}|LineFollowerLogic\\LineFollowerLogic.csproj|d:\\linefollowergamebuilds\\linefollowerlogic\\linefollowerlogic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DAEE50BC-13CC-42CD-97F9-FC4450ED86FA}|LineFollowerLogic\\LineFollowerLogic.csproj|solutionrelative:linefollowerlogic\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\LineFollowerGameBuilds\\LineFollowerLogic\\LineFollowerLogic\\Program.cs",
+              "RelativeDocumentMoniker": "LineFollowerLogic\\Program.cs",
+              "ToolTip": "D:\\LineFollowerGameBuilds\\LineFollowerLogic\\LineFollowerLogic\\Program.cs",
+              "RelativeToolTip": "LineFollowerLogic\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T10:08:23.967Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
