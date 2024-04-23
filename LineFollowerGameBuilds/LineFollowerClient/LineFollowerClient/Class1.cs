@@ -11,14 +11,12 @@
         private TcpClient client;
         private bool isConnected = false;
         private bool shouldRun = true; // Flag to control the update loop
-        private int left_motor;
-        private int right_motor;
+        protected int left_motor;
+        protected int right_motor;
         private bool[] sensor_array = new bool[5];
-        private int speed = 100;
         private bool run_code = false;
-        private int[] motor_array = new int[] { 0, 0 };
 
-        public void MyClient()
+        public void Run()
         {
             ConnectToServer();
             StartUpdateLoop();
@@ -34,7 +32,7 @@
         }
 
 
-        public void ConnectToServer()
+        private void ConnectToServer()
         {
             try
             {
@@ -120,7 +118,7 @@
         {
             try
             {
-                int[] intArray = motor_array;
+                int[] intArray = new int[] { left_motor, right_motor };
                 byte[] data = new byte[intArray.Length * sizeof(int)];
                 Buffer.BlockCopy(intArray, 0, data, 0, data.Length);
                 NetworkStream stream = client.GetStream();
@@ -159,12 +157,6 @@
         public bool OuterRightSensor()
         {
             return sensor_array[4];
-        }
-
-        public void arrayBuilder(int left_motor, int right_motor)
-        {
-            motor_array[0] = left_motor;
-            motor_array[1] = right_motor;
         }
 
         protected abstract void LineFollowerLogic();
