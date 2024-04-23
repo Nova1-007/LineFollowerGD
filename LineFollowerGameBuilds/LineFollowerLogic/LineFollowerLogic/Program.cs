@@ -1,19 +1,17 @@
-﻿using LineFollowerClient;
+using LineFollowerClient;
 
 public class MyClass : Client
-{
+{   
     public static void Main()
     {
-        MyClass myClass = new MyClass();
-        myClass.MyClient();
+        MyClass self = new MyClass();
+        self.Run();
     }
 
     protected override void LineFollowerLogic()
     {
-        int left_motor;
-        int right_motor;
         int speed = 20;
-        if (OuterLeftSensor() == true & OuterRightSensor() == true)
+        if (OuterLeftSensor() == true && OuterRightSensor() == true)
         {
             left_motor = speed;
             right_motor = speed;
@@ -33,8 +31,6 @@ public class MyClass : Client
             left_motor = -20;
             right_motor = -20;
         }
-
-        arrayBuilder(left_motor, right_motor);
     }
 
 }
